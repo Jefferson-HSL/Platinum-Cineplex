@@ -80,7 +80,7 @@ a{
 
 input{
     display: flex;
-    background: url(../images/uil_search.png) no-repeat, #FAFAFA ;
+    background: url(../uil_search.png) no-repeat, #FAFAFA ;
     background-size: 1.25rem;
     background-position: 3%;
     border: 0.063rem solid #E8E8E8;
