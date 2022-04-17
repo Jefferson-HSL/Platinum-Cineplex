@@ -23,6 +23,7 @@ body{
     width: 2.063rem;
     height: 2.688rem;
     margin-right: 42.938rem;
+    cursor: pointer;
 }
 
 ul{
@@ -182,6 +183,7 @@ section{
     font-size: 1.125rem;
     line-height: 1.688rem;
     border: 0;
+    cursor: pointer;
 }
 
 .central{
@@ -210,6 +212,7 @@ section{
 .poster{
     width: 21rem;
     height: 31.125rem;
+    cursor: pointer;
 }
 
 #poster1{
@@ -242,6 +245,7 @@ section{
     font-weight: 700, bold;
     font-size: 1.5rem;
     line-height: 1.25rem;
+    cursor: pointer;
 }
 
 .recommended{
@@ -270,8 +274,8 @@ section{
 .posterRecommended{
     width: 21rem;
     height: 31.125rem;
-    z-index: -1;
-    position: relative;
     top: 1.125rem;
     left: 0.938rem;
+    position: relative;
+    cursor: pointer;
 }
