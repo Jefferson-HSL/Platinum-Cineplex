@@ -8,6 +8,9 @@
     <script src="script.js" defer></script>
     <link rel="shortcut icon" type="imagex/png" href="/images/logo.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? família= Poppins:wght@400;600 & display=swap" rel="stylesheet">
     <title>Platinum Cineplex</title>
 </head>
 <body>
@@ -47,7 +50,7 @@
                 </select>
             </div>
             <div class="buttonFind">
-                <button class="find" onclick="hello()">Find</button>
+                <button class="find">Find</button>
             </div>
         </div>
 
@@ -79,19 +82,68 @@
             <div class="posters">
                 <div  id="posterRecommended1">
                     <h1 class="recommended">Recommended</h1>
-                    <img class="posterRecommended" src="/images/poster2-spider-man.png" alt=""/>
+                    <img class="posterRecommended btnOpenModal" onclick="openModal()" src="/images/poster2-spider-man.png" alt=""/>
+                </div>
+
+                <div class="modal-container">
+                    <div class="modal">
+                        <div class="titleContainerModal">
+                            <h1 class="titleModal">Now Showing</h1>
+                            <button class="close" onclick="closeModal()"><img src="/images/close.png" alt=""></button>
+                        </div>
+                        <div class="movieInfo">
+                            <div>
+                                <div  id="posterRecommended1">
+                                    <h1 class="recommended">Recommended</h1>
+                                    <img class="posterRecommended" src="/images/poster2-spider-man.png" alt=""/>
+                                </div>
+                            </div>
+                            <div class="informes">
+                                <div>
+                                    <h1>Synopsis</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra,per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.</p>
+                                </div>
+
+                                <div>
+                                    <h1>Genre</h1>
+                                    <p>ACTION</p>
+                                </div>
+                                <div>
+                                    <h1>Director</h1>
+                                    <p>Jonathan Watts</p>
+                                </div>
+                                <div>
+                                    <h1>Actors</h1>
+                                    <p>Tom Holland, Zendaya, Benedict Cumberbatch</p>
+                                </div>
+                                <div>
+                                    <h1>Time</h1>
+                                    <p>176 minutes</p>
+                                </div>
+
+                                <div class="buttonModal">
+                                    <button class="buy">Buy Ticket</button>
+                                    <button class="trailer">
+                                        <img class="imageTrailer" src="/images/movie-play.svg.png" alt="">
+                                        Trailer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h1 class="recommended">Recommended</h1>
+                    <img class="posterRecommended btnOpenModal" onclick="openModal()" src="/images/poster-uncharted.png" alt=""/>
                 </div>
                 <div>
                     <h1 class="recommended">Recommended</h1>
-                    <img class="posterRecommended" src="/images/poster-uncharted.png" alt=""/>
+                    <img class="posterRecommended btnOpenModal" onclick="openModal()" src="/images/poster-batman.png" alt=""/>
                 </div>
                 <div>
                     <h1 class="recommended">Recommended</h1>
-                    <img class="posterRecommended" src="/images/poster-batman.png" alt=""/>
-                </div>
-                <div>
-                    <h1 class="recommended">Recommended</h1>
-                    <img class="posterRecommended" src="/images/poster-bright.png" alt=""/>
+                    <img class="posterRecommended btnOpenModal" onclick="openModal()" src="/images/poster-bright.png" alt=""/>
                 </div>
             </div>
         </div>
