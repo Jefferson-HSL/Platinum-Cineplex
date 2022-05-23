@@ -9,4 +9,7 @@ function openModal() {
 
 function closeModal() {
   modal.classList.remove('active');
+
+  const body = document.querySelector('body');
+  body.classList.remove('no-scroll');
 }
